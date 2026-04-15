@@ -1,3 +1,2 @@
 [config]
-command = npm install
-SCM_DO_BUILD_DURING_DEPLOYMENT = true
+command = cd /home/site/wwwroot && npm install && npm start
